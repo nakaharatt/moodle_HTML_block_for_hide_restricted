@@ -1,5 +1,4 @@
-# moodle_HTML_block_for_hide_restricted
-Moodleの利用制限のテキストをコース上で表示/非表示するためのHTMLブロック
+#Moodleの利用制限のテキストをコース上で表示/非表示するためのHTMLブロック
 
 利用制限を非表示にしたいコースにHTMLブロックを作成し以下のソースを貼り付けて保存する。
 
