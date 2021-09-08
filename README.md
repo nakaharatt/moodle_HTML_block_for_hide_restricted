@@ -6,9 +6,9 @@
 コースアクセス時は非表示になる。
 
 ```
-<button onclick='cusotom_hiderestricted();' class='btn btn-primary hiderestrictedbtn' hidestatus='0'>利用制限を隠す</button>
+<button onclick='custom_hiderestricted();' class='btn btn-primary hiderestrictedbtn' hidestatus='0'>利用制限を隠す</button>
 <script>
-function cusotom_hiderestricted(action){
+function custom_hiderestricted(action){
     var btn = document.getElementsByClassName('hiderestrictedbtn');
     if(btn[0].getAttribute('hidestatus') == 0 || action == 'hide'){
         for( var i = 0; i < btn.length; i++  ){
@@ -40,7 +40,7 @@ function cusotom_hiderestricted(action){
 }
 
 window.onload = function(){
-    cusotom_hiderestricted('hide');
+    custom_hiderestricted('hide');
 }
 </script>
 ```
