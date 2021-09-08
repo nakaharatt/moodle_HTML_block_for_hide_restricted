@@ -1,0 +1,2 @@
+# moodle_HTML_block_for_hide_restricted
+Moodleの利用制限のテキストをコース上で表示/非表示するためのHTMLブロック
