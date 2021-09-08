@@ -46,3 +46,4 @@ window.onload = function(){
 
 :warning:多言語フィルタがONになっているものとしてボタンの文字列を設定しているので、OFFの場合は適宜書き換えること。
 
+2021/09/08 Moodle3.9とMoodle3.11で動作検証
