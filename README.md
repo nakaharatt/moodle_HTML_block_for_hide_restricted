@@ -1,7 +1,8 @@
 # Moodle Tips
 # 利用制限のテキストを表示/非表示するためのHTMLブロック
 
-利用制限を非表示にしたいコースにHTMLブロックを作成し以下のソースを貼り付けて保存する。
+利用制限の表示を切り替えたいコースにHTMLブロックを作成し以下のソースを貼り付けて保存する。
+コースアクセス時は非表示になる。
 
 ```
 <button onclick='cusotom_hiderestricted();' class='btn btn-primary hiderestrictedbtn' hidestatus='0'>利用制限を隠す</button>
