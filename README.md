@@ -19,7 +19,7 @@ function custom_hiderestricted(action){
             btn[i].setAttribute('hidestatus',1);
         }
 
-        var restrictedelements = document.getElementsByClassName('availabilityinfo isrestricted isfullinfo');
+        var restrictedelements = document.getElementsByClassName('availabilityinfo isrestricted');
         for( var i = 0; i < restrictedelements.length; i++  ){
             restrictedelements[i].setAttribute('style','display:none');
         }
@@ -32,7 +32,7 @@ function custom_hiderestricted(action){
             btn[i].setAttribute('hidestatus',0);
         }
 
-        var restrictedelements = document.getElementsByClassName('availabilityinfo isrestricted isfullinfo');
+        var restrictedelements = document.getElementsByClassName('availabilityinfo isrestricted');
         for( var i = 0; i < restrictedelements.length; i++  ){
             restrictedelements[i].removeAttribute('style');
         }
